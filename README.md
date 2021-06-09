@@ -16,11 +16,11 @@
 ### Connect with me:
 [<img align="left" alt="Aroyehun Ahmad | linkedin" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
-
+###
 <details>
   <summary>:zap: GitHub Stats</summary>
 
-  <img align="left" alt="ahmad-cod's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=ahmad-cod&show_icons=true&hide_border=true" />
+  <img align="left" alt="ahmad-cod's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=ahmad-cod&show_icons=true&theme=radical" />
 
 </details>
 
