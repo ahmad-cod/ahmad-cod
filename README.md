@@ -33,12 +33,12 @@
 <!-- <details>
   <summary>:zap: GitHub Stats</summary> -->
 
-  <img align="left" alt="ahmad-cod's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=ahmad-cod&show_icons=true&theme=radical" />
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=ahmad-cod&show_icons=true)
+  <!-- <img align="left" alt="ahmad-cod's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=ahmad-cod&show_icons=true&theme=radical" /> -->
 
 <!-- </details> -->
 
 <br />
 
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=ahmad-cod&show_icons=true)  
-[linkedin]: https://www.linkedin.com/in/ahmad-aroyehun-9b8314212
+[linkedin] : https://www.linkedin.com/in/ahmad-aroyehun-9b8314212
