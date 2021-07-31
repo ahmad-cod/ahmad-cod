@@ -10,7 +10,7 @@
 - 🌱 I’m currently learning more about Redux and Firebase, 
 - 💬 Ask me about Javascript both Frontend, Backend and React Js.
 - 👯 I’m looking to collaborate with driven and motivated devs to deliver efficient digital solutions.
-<!-- - 📫 How to reach me: ... -->
+- 📫 How to reach me: ahmadaroyehun@gmail.com
 - ⚡ Fun fact: love swimming
 
 ### Connect with me:
