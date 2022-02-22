@@ -6,7 +6,7 @@
 -->
 
 
-- 🔭 I’m currently working on https://amnaplan-826.web.app (A project management app)
+- 🔭 I’m currently working on https://aroblogs.herokuapp.com (A Blogs management app)
 - 🌱 I’m currently learning more about Redux and Firebase, 
 - 💬 Ask me about [<strong>Javascript</strong>] both Frontend, Backend and React Js.
 - 👯 I’m looking to collaborate with driven and motivated devs to deliver efficient digital solutions.
