@@ -154,7 +154,8 @@ h2::before {
     background-color: var(--primary-color);
     border: .1rem solid var(--primary-color);
     color: #321f56;
-    padding: 1.5rem 3rem;
+    padding: 1.5rem 4rem;
+    margin-top: 4rem;
     border-radius: .4rem;
     font-family: "Josefin Sans Regular", sans-serif;
     transition: background-color .4s;
@@ -244,22 +245,22 @@ a {
 }
 .bordered {
     border-radius: 0.25rem;
-    padding: 0.5rem 1rem;
+    padding: 0.85rem 1.5rem;
     margin-left: 0.75rem;
     border: 1px solid var(--primary-color);
 }
 .logo {
     position: relative;
     background-color: #0f0326;
-    padding: 0.25rem 0.75rem;
+    padding: 0.25rem 1.1rem;
     z-index: 10;
     border: 1px solid var(--primary-color);
-    font-size: 1.875rem;
+    font-size: 1.9rem;
     box-shadow: 0.3rem 0.35rem var(--primary-color);
 }
 
 .hi {
-    /* font-size: 1.7rem; */
+    margin-top: 8rem;
     letter-spacing: .3rem;
     /* opacity: 0; */
     animation: fadeIn 1s ease-in-out 1.2s forwards;
