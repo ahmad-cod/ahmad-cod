@@ -4,9 +4,180 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahmad Aroyehun &mdash;</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="ayo.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Ahmad Aroyehun &mdash; Frontend Dev</title>
 </head>
 <body>
-    
+    <div class="overall-container">
+        <header class="flex">
+            <div class="logo satisfy">Ahmad</div>
+            <button class="mobile-nav-toggle" aria-label="Menu" aria-controls="navigation" aria-expanded="false">
+            </button>
+            <nav>
+                <ul id="navigation" class="nav-list flex" data-visible="false">
+                    <li class="nav-item"><a href="#about" class="nav-link"><span class="list-num"><i>01.</i></span>About Me</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link"><span class="list-num"><i>02.</i></span>Projects</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link"><span class="list-num"><i>03.</i></span>Contact</a></li>
+                    <a href="#" class="bordered resume-btn">Resume</a>
+                </ul>
+            </nav>
+        </header>
+        <!-- Hero Section  -->
+
+        <main class="container">
+            <p class="hi">Hi 👋, It's</p>
+            <h1 class="name">Ahmad </h1><code>{ alias: 'ahmad-cod' } </code>
+            <h2>Frontend Developer</h2>
+            <div class="intro">
+                <p>
+                    I love to create beautiful and performant products with delightful user experiences.
+                </p>
+            </div>
+            <a href="#projects" class="btn btn-filled">See my work</a>
+        </main>
+        
+    <!-- ABOUT SECTION -->
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="container-about">
+                <div class="about_details">
+                    <p>I started coding in May / June 2020.
+                         I'm passionate about clean code
+                        and accessibility
+                        in coding beautiful websites and web apps that provide awesome experiences.
+                    </p>
+                    <p>
+                        If I'm not coding during my coding hours, I'm likely watching Kyle Powell's video on CSS tips.
+                    </p>
+                    <p>In my spare time I like to read the Holy Quran, personal development books 
+                        and coach siblings.
+                        I'm
+                        always down for hearing about new projects, so feel free to drop me a line.</p>
+                    <p>Technologies that I use :</p>
+                    <div class="stack">
+                        <ul>
+                            <li>
+                                <i class="fab fa-html5"></i>
+                                HTML 5
+                            </li>
+                            <li>
+                                <i class="fab fa-css3"></i>
+                                CSS3
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <i class="fab fa-js"></i>
+                                Javascript
+                            </li>
+                            <li>
+                                <i class="fab fa-react"></i>
+                                React
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="about_image">
+                    <img src="images/aroyehun.jpg" alt="Ahmad Aroyehun">
+                </div> -->
+            </div>
+        </div>
+    </section>
+        
+    <!-- PROJECTS SECTION -->
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Some Stuff I’ve Built 📁</h2>
+            <div class="projects_grid">
+                <div class="project_box">
+                    <img src="images/news.png" alt="News Homepage">
+                    <div class="project_details">
+                        <div class="project_links">
+                            <a title="GitHub" href="https://github.com/ahmad-cod/news-homepage" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a title="External" href="https://ahmad-cod.github.io/news-homepage" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <span class="project_name">W. News</span>
+                    </div>
+                </div>
+                <div class="project_box project_2">
+                    <img src="images/snap.png" alt="Snap">
+                    <div class="project_details">
+                        <div class="project_links">
+                            <a title="GitHub" href="https://github.com/ahmad-cod/snap" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a title="External Link" href="https://ahmad-cod.github.io/snap" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <span class="project_name">Snap</span>
+                    </div>
+                </div>
+                <div class="project_box project_3">
+                    <img src="images/easybank.png" alt="Photosnap">
+                    <div class="project_details">
+                        <div class="project_links">
+                            <a title="GitHub" href="https://github.com/ahmad-cod/easybank" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a title="External" href="https://ahmad-cod.github.io/easybank" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <span class="project_name">Easybank</span>
+                    </div>
+                </div>
+            </div>
+            <div class="more-projects">
+                <a href="https://github.com/ahmad-cod?tab=repositories" class="btn secondary-btn" data-scroll="in"
+                    target="_blank">See More
+                    Projects</a>
+            </div>
+        </div>
+    </section>
+        
+    <!-- CONTACT SECTION -->
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-container">
+                <h2 class="contact-heading">Get In Touch</h2>
+                <p>I'm currently open to opportunities. If you need help on your project or just fancy saying
+                    Hi,
+                    don't hesitate to drop a message, It's my pleasure to get back to you!</p>
+                <a class="btn secondary-btn mail" href="mailto:ahmadadewale800@gmail.com" target="_blank">Send a
+                        Message</a>
+            </div>
+        </div>
+    </section>
+
+        <!-- FOOTER SECTION -->
+
+    <footer>
+        <div class="container">
+            <div class="footer_container-inner">
+                <div class="social_links">
+                    <a class="social_link" href="https://twitter.com/aro_ahm"><i class="fab fa-twitter"></i></a>
+                    <a class="social_link" href="https://github.com/ahmad-cod"><i class="fab fa-github"></i></a>
+                    <a class="social_link" href="https://codepen.io/ahmad-cod"><i class="fab fa-codepen"></i></a>
+                </div>
+                <div class="attribute">
+                    <p>Built with love ♥ by Aroyehun Ahmad</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
