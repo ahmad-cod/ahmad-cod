@@ -249,6 +249,9 @@ a {
     margin-left: 0.75rem;
     border: 1px solid var(--primary-color);
 }
+.zoom:hover {
+    transform: scaleY(1.5);
+}
 .logo {
     position: relative;
     background-color: #0f0326;
@@ -346,11 +349,12 @@ a {
     box-shadow: 0rem 0rem 1rem #000;
     border-radius: .4rem;
     opacity: 0.5;
-    transition: opacity .5s;
+    transition: all .5s;
 }
 
 .project_box > img:hover {
     opacity: 1;
+    transform: scale(1.1)
 }
 
 .project_details {

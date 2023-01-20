@@ -1,0 +1,25 @@
+.observe {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    background: blue;
+    transition: all 1s;
+}
+.show {
+    opacity: 1;
+    filter: blur(0);
+    background: inherit;
+    transform: translateX(0%);
+}
+.project_box:nth-child(2) {
+    transition-delay: .3s;
+}
+.project_box:nth-child(3) {
+    transition-delay: .6s;
+}
+
+@media(prefers-reduced-motion) {
+    .observe {
+        transition: none;
+    }
+}

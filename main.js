@@ -21,30 +21,16 @@ window.addEventListener("scroll", function () {
 });
 
 
-// // MAKE NAVBAR DISAPPEAR WHEN A USER SCROLLS DOWN AND APPEAR WHEN A USER SCROLLS UP
-// var prevScrollpos = window.pageYOffset;
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        console.log(entry)
+        if(entry.isIntersecting) {
+            entry.target.classList.add('show')
+        } else {
+            entry.target.classList.remove('show')
+        }
+    })
+})
 
-// window.onscroll = function () {
-//     var currentScrollPos = window.pageYOffset;
-//     if (prevScrollpos > currentScrollPos) {
-//         document.getElementById("navbar").style.top = "0";
-//     } else {
-//         document.getElementById("navbar").style.top = "-10rem";
-//     }
-//     prevScrollpos = currentScrollPos;
-// }
-
-
-// // MOBILE NAVIGATION MENU
-// const myMenu = document.querySelector('.menu-toggle');
-// const myList = document.querySelector('.nav-list');
-
-// myMenu.addEventListener('click', () => {
-//     myMenu.classList.toggle('show');
-//     myList.classList.toggle('show');
-// });
-
-// // SCROLL OUT
-// ScrollOut({
-//     targets: 'h2,p,a'
-// })
+const hiddenElements = document.querySelectorAll('.observe')
+hiddenElements.forEach(el => observer.observe(el))
