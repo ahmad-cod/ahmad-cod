@@ -1,15 +1,14 @@
 .observe {
     opacity: 0;
-    filter: blur(5px);
+    filter: blur(3px);
     transform: translateX(-100%);
-    background: blue;
-    transition: all 1s;
+    transition: all 1.2s;
 }
 .show {
     opacity: 1;
     filter: blur(0);
     background: inherit;
-    transform: translateX(0%);
+    transform: translateX(0);
 }
 .project_box:nth-child(2) {
     transition-delay: .3s;
