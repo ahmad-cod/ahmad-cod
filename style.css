@@ -319,6 +319,11 @@ a {
     margin-right: 1rem;
 }
 
+@media (max-width: 570px) {
+    .stack {
+        flex-direction: column;
+    }
+}
 /* PROJECTS SECTION */
 
 .projects {
