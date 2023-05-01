@@ -305,8 +305,12 @@ a {
     font-size: 1.8rem;
 }
 
-.stack ul:first-child {
-    margin-right: 7rem;
+.stack ul {
+    margin-right: auto;
+}
+
+.stack ul:last-child {
+    margin-right: 2rem;
 }
 
 .stack li {
