@@ -14,7 +14,7 @@
     transition-delay: .3s;
 }
 .project_box:nth-child(3) {
-    transition-delay: .6s;
+    transition-delay: .7s;
 }
 
 @media(prefers-reduced-motion) {
