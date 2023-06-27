@@ -1,17 +1,15 @@
-### Hi there, I'm Ahmad 👋
+### Hi 👋, I'm @ahmad-cod { alias: aro }
 
-## Frontend and Javascript Developer
+## Frontend Developer, and Software Engineer.
 <!--
 **ahmad-cod/ahmad-cod** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 
 
-- 🔭 I’m currently working on https://aroblogs.herokuapp.com (A Blogs management app)
-- 🌱 I’m currently learning more about Redux and Firebase, 
-- 💬 Ask me about [<strong>Javascript</strong>] both Frontend, Backend and React Js.
-- 👯 I’m looking to collaborate with driven and motivated devs to deliver efficient digital solutions.
-- 📫 How to reach me: ahmadaroyehun@gmail.com
-- ⚡ Fun fact: love swimming
+- 🔭 I’m interested in building apps that impact millions.
+- 🌱 I’m currently learning more about backend development and prompt engineering.
+- 👯 I’m open to collaborating with driven and motivated devs to build beautiful apps and optimized sites.
+- 📫 Hit me @ ahmadaroyehun@gmail.com
 
 ### Connect with me:
 [<img align="left" alt="Aroyehun Ahmad | linkedin" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin] 
