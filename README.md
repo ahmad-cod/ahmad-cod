@@ -1,13 +1,13 @@
 ### Hi 👋, I'm @ahmad-cod { alias: aro }
 
-## Frontend Developer, and Software Engineer.
+## Frontend Developer, Backend Developer and Software Engineer.
 <!--
 **ahmad-cod/ahmad-cod** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 
 
 - 🔭 I’m interested in building apps that impact millions.
-- 🌱 I’m currently learning more about backend development and prompt engineering.
+- 🌱 I’m currently studying the book nodejs design patterns.
 - 👯 I’m open to collaborating with driven and motivated devs to build beautiful apps and optimized sites.
 - 📫 Hit me @ ahmadaroyehun@gmail.com
 
