@@ -22,3 +22,30 @@
         transition: none;
     }
 }
+
+/*** text transform animation ***/
+
+.role::before { 
+    content: "Frontend Developer"; 
+    animation: animate infinite 7s; 
+    margin: 1rem 0;
+} 
+
+@keyframes animate { 
+
+    0% { 
+        content: "Frontend Developer"; 
+    } 
+
+    40% { 
+        content: "Backend Developer"; 
+    } 
+
+    75% { 
+        content: "Fullstack Developer"; 
+    } 
+}
+
+.intro {
+    margin-top: 9rem;
+}
