@@ -27,7 +27,7 @@
 
 .role::before { 
     content: "Frontend Developer"; 
-    animation: animate infinite 7s; 
+    animation: animate infinite 10s; 
     margin: 1rem 0;
 } 
 
@@ -37,7 +37,7 @@
         content: "Frontend Developer"; 
     } 
 
-    40% { 
+    45% { 
         content: "Backend Developer"; 
     } 
 
