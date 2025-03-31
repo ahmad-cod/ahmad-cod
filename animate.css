@@ -47,5 +47,18 @@
 }
 
 .intro {
-    margin-top: 9rem;
+    margin-top: 4rem;
+}
+
+.cursor {
+    font-weight: bold;
+    font-size: 3rem;
+    color: #76ff77;
+    animation: blink 0.7s infinite;
+  }
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
 }
