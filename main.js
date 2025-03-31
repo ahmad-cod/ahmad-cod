@@ -1,5 +1,6 @@
 const nav = document.querySelector('#navigation')
 const navToggler = document.querySelector('.mobile-nav-toggle')
+const navLinks = document.querySelectorAll('.nav-link')
 
 navToggler.addEventListener('click', () => {
     const visibility = nav.getAttribute('data-visible')
@@ -35,3 +36,12 @@ const observer = new IntersectionObserver(entries => {
 
 const hiddenElements = document.querySelectorAll('.observe')
 hiddenElements.forEach(el => observer.observe(el))
+
+// close menu when a link is clicked
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        nav.setAttribute('data-visible', false)
+        navToggler.setAttribute('aria-expanded', false)
+    })
+}
+)
