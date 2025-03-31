@@ -2,6 +2,9 @@ const nav = document.querySelector('#navigation')
 const navToggler = document.querySelector('.mobile-nav-toggle')
 const navLinks = document.querySelectorAll('.nav-link')
 
+const roles = ["Frontend Developer", "Backend Developer", "Fullstack Developer", "Tutor"];
+const typewriterElement = document.getElementById("typewriter");
+
 navToggler.addEventListener('click', (event) => {
     event.stopPropagation()
     const visibility = nav.getAttribute('data-visible')
@@ -52,3 +55,35 @@ navLinks.forEach(link => {
     })
 }
 )
+
+
+// Typewriter effect
+let roleIndex = 0;
+let charIndex = 0;
+let isDeleting = false;
+let typeSpeed = 150;
+let deleteSpeed = 60;
+let pauseDuration = 1000;
+
+function typeEffect() {
+    let currentRole = roles[roleIndex];
+    
+    if(isDeleting) {
+        charIndex--;
+    }
+    else {
+        charIndex++;
+    }
+    typewriterElement.textContent = currentRole.substring(0, charIndex);
+
+    if (!isDeleting & charIndex === currentRole.length) {
+        setTimeout(() => (isDeleting = true), pauseDuration); // pause before deleting
+    } else if (isDeleting && charIndex === 0) {
+        isDeleting = false;
+        roleIndex = (roleIndex + 1) % roles.length; // move to the next role
+    }
+    setTimeout(typeEffect, isDeleting ? deleteSpeed : typeSpeed); // pause before typing next role
+}
+
+// Start the typewriter effect
+typeEffect();
