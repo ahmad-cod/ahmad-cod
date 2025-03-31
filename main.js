@@ -2,7 +2,8 @@ const nav = document.querySelector('#navigation')
 const navToggler = document.querySelector('.mobile-nav-toggle')
 const navLinks = document.querySelectorAll('.nav-link')
 
-navToggler.addEventListener('click', () => {
+navToggler.addEventListener('click', (event) => {
+    event.stopPropagation()
     const visibility = nav.getAttribute('data-visible')
     if(visibility === 'false') {
         nav.setAttribute('data-visible', true)
@@ -12,15 +13,21 @@ navToggler.addEventListener('click', () => {
         navToggler.setAttribute('aria-expanded', false)
     }
 })
-
-
-// TO MAKE THE NAVBAR STYLISH AND STICKY WHEN A SCROLLS
-window.addEventListener("scroll", function () {
-    // var nav = document.querySelector("nav");
-    // console.log('scrolling ...')
-    nav.classList.toggle("sticky", window.scrollY > 0);
-});
-
+// close menu when clicking outside of it
+document.addEventListener('click', (event) => {
+    const isClickInside = nav.contains(event.target) || navToggler.contains(event.target)
+    if(!isClickInside) {
+        nav.setAttribute('data-visible', false)
+        navToggler.setAttribute('aria-expanded', false)
+    }
+})
+// close menu when pressing escape
+document.addEventListener('keydown', (event) => {
+    if(event.key === 'Escape') {
+        nav.setAttribute('data-visible', false)
+        navToggler.setAttribute('aria-expanded', false)
+    }
+})
 
 // Using IntersectionObserver API for scroll animation
 
