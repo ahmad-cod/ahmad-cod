@@ -2,7 +2,7 @@ const nav = document.querySelector('#navigation')
 const navToggler = document.querySelector('.mobile-nav-toggle')
 const navLinks = document.querySelectorAll('.nav-link')
 
-const roles = ["Frontend Developer", "Backend Developer", "Fullstack Developer", "Tutor"];
+const roles = ["Software Engineer", "Frontend Developer", "Fullstack Developer", "Tutor"];
 const typewriterElement = document.getElementById("typewriter");
 
 navToggler.addEventListener('click', (event) => {
