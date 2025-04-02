@@ -79,6 +79,13 @@ ul {
     list-style: none;
 }
 
+/* STYLE CLASS UTILITIES */
+.block {
+    display: block;
+    padding-top: 1rem;
+    font-weight: 600;
+}
+
 /* HEADINGS */
 
 header {
