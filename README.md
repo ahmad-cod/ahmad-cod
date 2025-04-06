@@ -41,5 +41,9 @@
 
 [linkedin]: https://www.linkedin.com/in/ahmad-aroyehun-9b8314212
 
+
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=ahmad-cod&theme=radical&no-frame=true&no-bg=false&margin-w=4)
+
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
