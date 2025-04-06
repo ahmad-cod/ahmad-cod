@@ -40,3 +40,6 @@
 
 
 [linkedin]: https://www.linkedin.com/in/ahmad-aroyehun-9b8314212
+
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
