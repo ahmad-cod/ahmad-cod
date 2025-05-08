@@ -1,6 +1,6 @@
-### Hi 👋, I'm Ahmad Aroyehun { alias: Abu Muhsin }
+### Hi 👋, I'm Ahmad.
 
-## Frontend Developer, Backend Developer and Software Engineer.
+## A Frontend Developer, Backend Developer and Software Engineer.
 <!--
 **ahmad-cod/ahmad-cod** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
@@ -43,8 +43,6 @@
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ahmad-cod" alt="ahmad-cod" /></p>
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=ahmad-cod&limit=5&theme=dark&combine_all_yearly_contributions=true)
