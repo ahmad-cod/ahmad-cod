@@ -1,51 +1,111 @@
-### Hi 👋, I'm Ahmad.
+# 👋 I'm Ahmad   
+### Building intelligent learning systems & scalable backend architectures
 
-## A Frontend Developer, Backend Developer and Software Engineer.
-<!--
-**ahmad-cod/ahmad-cod** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
+<p align="left">
+  <a href="mailto:ahmadaroyehun@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-informational?style=for-the-badge&logo=gmail">
+  </a>
+  <a href="https://www.linkedin.com/in/ahmadaroyehun/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
+  </a>
+</p>
 
+---
 
-- 🔭 I’m interested in building apps that impact millions.
-- 🌱 I’m currently working on a project that would impact more than 1,000 students.
-- 📫 Hit me @ ahmadaroyehun@gmail.com
+## ⚖️ Current Focus
 
+🛡️ **AuditTrail** — Compliance-as-Code Engine  
+→ Automates **NDPA 2023** regulatory audits  
+→ Intercepts "Dark Data" via Dockerized middleware  
+→ Converts manual legal headaches into continuous, automated protection
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmadaroyehun/) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://twitter.com/ANaroyehun) 
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-green.svg?logo=WhatsApp&logoColor=white)](https://wa.me/2347054547240) 
-[![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:ahmadaroyehun+github@gmail.com)
+---
 
-<br />
+## 🧰 Tech Stack
 
-### Languages and Tools:
+<p>
+  <img src="https://skillicons.dev/icons?i=python,fastapi,javascript,nodejs,react,next,tailwind,flutter,postgres,docker,linux,git" />
+</p>
 
-[<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />]
-[<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />]
-[<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />]
-[<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />]
-[<img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />]
-[<img align="left" alt="Node.js" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />]
+---
 
+## 🧠 Engineering Philosophy
 
-<a href='https://archiveprogram.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/acbadge.gif' width='40' height='40'></a> <a href='https://docs.github.com/en/developers'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/devbadge.gif' width='40' height='40'></a> <a href='https://github.com/pricing'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/pro.gif' width='50' height='50'></a>
+- Build **systems**, not isolated features  
+- Optimize for **clarity and scalability**  
+- Use AI where it creates **real leverage**  
+- Focus on **impact, not just implementation**
 
+---
 
+## 📌 Featured Work
 
+### 🧠 SmartLearn *(In Progress)*
+AI-powered system for:
+- Adaptive quizzes  
+- Knowledge gap detection  
+- Personalized explanations  
 
+---
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=ahmad-cod&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=ahmad-cod&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=ahmad-cod&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+### 🏫 School Management System
+Backend-focused system with:
+- Clean database design  
+- RESTful APIs  
+- Real-world architecture decisions  
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=ahmad-cod&theme=radical&no-frame=true&no-bg=false&margin-w=4)
+---
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+## ✍️ Writing
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=ahmad-cod&limit=5&theme=dark&combine_all_yearly_contributions=true)
+I write to break down complex concepts and document what I learn while building systems.
 
+- 🧠 [Hash Tables (And Why You Should Care)](https://dev.to/ahmadcod/im-learning-hash-tables-and-why-you-should-care-38k)  
+  → Explains how hash tables work and why they matter in real systems  
 
-[linkedin]: https://www.linkedin.com/in/ahmad-aroyehun-9b8314212
+- 🎮 [Collision Detection in 2D Game Development with JavaScript](https://dev.to/ahmadcod/collision-detection-in-2d-game-development-with-javascript-47ao)  
+  → Practical breakdown of collision logic and spatial reasoning  
+
+→ More articles: https://dev.to/ahmadcod
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ahmad-cod&show_icons=true&hide_border=true" height="150"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmad-cod&hide_border=true" height="150"/>
+</p>
+
+---
+
+## 🤝 Collaboration
+
+I’m open to working on:
+- **RegTech & Compliance** — Automating legal frameworks and data sovereignty
+- **EdTech platforms**
+- **AI-powered systems**
+- **Backend-heavy products**
+- *High-impact ideas*  
+
+If you're building something serious, let’s talk.
+
+---
+
+## 📫 Reach Me
+
+- Email: ahmadaroyehun@gmail.com  
+- LinkedIn: https://www.linkedin.com/in/ahmadaroyehun/
+---
+
+## ⚡ Philosophy
+
+- Use code to create meaningful impact  
+- Learn deeply by reading real-world source code — not just tutorials  
+- Study how great engineers think, structure systems, and solve problems  
+- Build systems, not just features  
+- Focus on understanding over memorization  
+
+> Great code is not just written — it is studied, understood, and improved upon.
+
+> *Don’t just build apps. Build systems that matter.*
