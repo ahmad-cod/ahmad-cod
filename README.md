@@ -60,11 +60,11 @@ Backend-focused system with:
 
 I write to break down complex concepts and document what I learn while building systems.
 
-- 🧠 [Hash Tables (And Why You Should Care)](https://dev.to/ahmadcod/im-learning-hash-tables-and-why-you-should-care-38k)  
-  → Explains how hash tables work and why they matter in real systems  
-
 - 🎮 [Collision Detection in 2D Game Development with JavaScript](https://dev.to/ahmadcod/collision-detection-in-2d-game-development-with-javascript-47ao)  
   → Practical breakdown of collision logic and spatial reasoning  
+
+- 🧠 [Hash Tables (And Why You Should Care)](https://dev.to/ahmadcod/im-learning-hash-tables-and-why-you-should-care-38k)  
+  → Explains how hash tables work and why they matter in real systems  
 
 → More articles: https://dev.to/ahmadcod
 
