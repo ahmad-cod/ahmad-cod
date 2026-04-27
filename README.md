@@ -1,5 +1,5 @@
 # 👋 I'm Ahmad   
-### Building intelligent learning systems & scalable backend architectures
+### Building scalable financial systems and digital learning infrastructure.
 
 <p align="left">
   <a href="mailto:ahmadaroyehun@gmail.com">
@@ -10,14 +10,14 @@
   </a>
 </p>
 
----
+<!-- ---
 
 ## ⚖️ Current Focus
 
 🛡️ **AuditTrail** — Compliance-as-Code Engine  
 → Automates **NDPA 2023** regulatory audits  
 → Intercepts "Dark Data" via Dockerized middleware  
-→ Converts manual legal headaches into continuous, automated protection
+→ Converts manual legal headaches into continuous, automated protection -->
 
 ---
 
